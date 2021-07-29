@@ -1,0 +1,65 @@
+/* common-styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
+h2{
+    font: 500;
+}
+h4{
+    font-weight: 600;
+}
+.txt-clr{
+    color: #E76F51;
+}
+
+
+/* top-header-section-style  */
+.top-hdr{
+    background-color: #264653;
+    padding:96px 0px;
+}
+.custom-btn{
+    background-color: #E76F51;
+    color: white;
+    font-weight: 500px;
+}
+.hdr-image img{
+    width: 100%;
+}
+
+/* Fetured-Bikes-section-style  */
+#small-text{
+    font-size: 0.8rem; 
+    color: #E76F51;
+}
+.f-bike-2 img{
+    width: 100%;
+}
+.f-bike img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+/* happy-Clients-section-style  */
+
+.fa-star{
+    color:#E77C40 ;
+}
+.rvwr{
+    font-weight: 600;
+}
+
+
+/* FAQ-section-styles  */
+.faq-images img{
+    width: 100%;
+}
+
+.accord-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
