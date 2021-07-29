@@ -26,28 +26,42 @@
 
         <section class="container">
             <div class="row gy-5 align-items-center mx-auto">
-                <div class="col col-lg-5 col-12 text-white">
+                <div class="col col-lg-5 col-12">
 
-                    <p style="font-size: 0.8rem;">Computer-controlled digital transistorized with electronic advance</p>
-                    <h1 class="pb-3">Honda CBR 300R</h1>
-                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda
+                    <p class="text-white" id="h-small-text">Computer-controlled digital transistorized with
+                        electronic advance</p>
+                    <h1 class="pb-3 text-white">Honda CBR 300R</h1>
+                    <p class="text-white">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then
+                        the 2021 Honda
                         CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast
                         to ride around town and on twisty back roads. </p>
                     <button type="button" class="btn btn-lg px-5 custom-btn" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">Purchase </button>
 
                     <!-- Modal -->
+
+                    <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    ...
+                                    <h5>Your Name</h5>
+                                    <input type="text" class="form-control" placeholder="name"
+                                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                    <h5 class="pt-3">Your Email</h5>
+                                    <input type="email" class="form-control" placeholder="email"
+                                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                    <div class="mb-3 form-check align-items-start pt-3">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label " for="exampleCheck1">I Accept the <a
+                                                href="">Terms and Conditions</a></label>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -300,10 +314,64 @@
                 </div>
             </div>
         </section>
+
+        <!-- subscription-section  -->
+        <section class=" py-5 my-5 sub-style">
+            <div class="container">
+
+                <h1 class="text-center">JOIN OUR NEWSLETTER</h1>
+                <p class="text-center py-3">Subscribe to our newsletter to receive the latest news &
+                    updates from the world of motorcycle.</p>
+
+                <div class="row gy-3 ps-lg-5 ps-0 mb-5 justify-content-center align-items-center">
+                    <div class="col col-lg-6 col-10">
+                        <input type="email" class="form-control border-5" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm" placeholder="Your Email">
+                    </div>
+                    <div class="col col-lg-4 col-10 d-flex justify-content-center">
+                        <button type="button" class="btn btn-lg px-5 rounded-pill custom-btn-2">Send</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- offer-section  -->
+        <section class="container py-5">
+            <h1 class="text-center">SPECIAL OFFERS</h1>
+            <div class="row gy-5 justify-content-center">
+                <div class="col col-lg-6 col-10 shadow">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-6 col-10">
+                            <h1 class="py-5"><span class="txt-clr">$200-OFF</span> GET Your Honda Now </h1>
+                            <h4>Honda CBR1000RR</h4>
+                            <p class="text-muted">on sale until next month</p>
+                        </div>
+                        <div class="col col-lg-6 col-10">
+                            <img class="w-100" src="images/cbr1000.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-10 shadow">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-6 col-10">
+                            <h1 class="py-5"><span class="txt-clr">15%-OFF</span> on older Honda Models </h1>
+                            <h4>Honda RC51,Honda TRX 700XX</h4>
+                            <p class="text-muted">until stocks last</p>
+                        </div>
+                        <div class="col col-lg-6 col-10">
+                            <img class="w-100" src="images/honda2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
     </main>
     <!-- Footer-Section -->
-    <footer>
-
+    <footer class="bg-dark py-5">
+        <p class="text-center text-white py-5">© 2021 bike. All rights reserved</p>
     </footer>
 
     <!-- javascript-bootstrap  -->

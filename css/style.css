@@ -1,3 +1,4 @@
+
 /* common-styles  */
 body{
     font-family: 'Poppins', sans-serif;
@@ -13,16 +14,26 @@ h4{
     color: #E76F51;
 }
 
-
 /* top-header-section-style  */
+#h-small-text{
+    font-size: 0.8rem; 
+    color: #E76F51;
+}
+
 .top-hdr{
     background-color: #264653;
     padding:96px 0px;
 }
+
 .custom-btn{
     background-color: #E76F51;
     color: white;
     font-weight: 500px;
+    transition: transform 0.2s ease-in;
+}
+.custom-btn:hover{
+    transform: scale(1.15);
+    color: white;
 }
 .hdr-image img{
     width: 100%;
@@ -59,4 +70,22 @@ h4{
 .accord-text{
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+/* subscription-section-style  */
+.sub-style{
+    background-color: rgb(245, 112, 89);
+    color: white;
+}
+.custom-btn-2{
+    background-color: white;
+    color: #E76F51;
+    font-weight: 500px;
+    border: 0px;
+    transition: transform 0.2s ease-in;
+}
+
+.custom-btn-2:hover{
+    transform: scale(1.15);
+    color: #E76F51;
 }
