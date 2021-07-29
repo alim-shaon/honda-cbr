@@ -14,7 +14,7 @@ h4{
     color: #E76F51;
 }
 
-/* top-header-section-style  */
+/* top-header-focus-section-style  */
 #h-small-text{
     font-size: 0.8rem; 
     color: #E76F51;
@@ -35,20 +35,15 @@ h4{
     transform: scale(1.15);
     color: white;
 }
-.hdr-image img{
-    width: 100%;
-}
+
 
 /* Fetured-Bikes-section-style  */
 #small-text{
     font-size: 0.8rem; 
     color: #E76F51;
 }
-.f-bike-2 img{
-    width: 100%;
-}
+
 .f-bike img{
-    width: 100%;
     filter: grayscale(100%);
 }
 
@@ -57,7 +52,7 @@ h4{
 .fa-star{
     color:#E77C40 ;
 }
-.rvwr{
+.revwr{
     font-weight: 600;
 }
 
